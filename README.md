@@ -51,7 +51,7 @@ The schema creates the `food_ordering_system` database and its seven tables. Nev
 
 4. Run `mvn clean test` to compile the project and run the automated tests.
 5. Run `mvn exec:java` to start the application, or open **Run and Debug** and select **Food Ordering System**. The VS Code launch configuration reads environment variables from `.env`.
-6. Register a customer from the welcome screen. The first run creates an administrator using `FOOD_ADMIN_EMAIL` and `FOOD_ADMIN_PASSWORD` if no active administrator exists. Sign in with that email and password to open the admin workspace.
+6. Register a customer from the welcome screen. The first run creates an administrator using `FOOD_ADMIN_EMAIL` and `FOOD_ADMIN_PASSWORD` if no administrator account exists. Sign in with that email and password to open the admin workspace.
 
 If MySQL is not running or credentials are wrong, startup shows a database error. Check that the schema and sample data have been loaded and that the `FOOD_DB_*` variables match the MySQL account.
 
