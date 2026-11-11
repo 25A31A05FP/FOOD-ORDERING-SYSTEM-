@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Food Ordering System",
+      "request": "launch",
+      "mainClass": "com.foodordering.Main",
+      "projectName": "food-ordering-system",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
